@@ -33,7 +33,6 @@ const { ListNode } = require('../extensions/list-node.js');
     this.end.next = node;
     this.end = node;
   }
-
   
   dequeue() {
     const delted = this.head;
@@ -49,7 +48,6 @@ const { ListNode } = require('../extensions/list-node.js');
     return delted.value;
   }
 }
-
 
 module.exports = {
   Queue
